@@ -2,14 +2,29 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-ul,li{
-    text-decoration: none;
-    padding: 10px;
-    list-style-type: none;
-    display: inline;    
+ul{
+    margin: 0;
 }
 
-.header-text h4,h1{
+.navbar ul li {
+    text-decoration: none;
+    margin-right: 50px;
+    list-style-type: none;
+    float: right;
+}
+
+.data ul li{
+    text-decoration: none;
+    margin: auto 60px;
+    list-style-type: none;
+    float: left;  
+}
+
+li span{
+  font-size: 34px;
+}
+
+.header-text h4, .header-text h1{
     margin: 0;
     color: white;
 }
@@ -52,17 +67,43 @@ nav{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -50px;
+    top: -80px;
     text-align: center;
 }
 
 
 .data{
-    padding: 50px;
+    padding: 30px;
     font-weight: bold;
 }
 
 li img{
     width: 20px;
     height: auto;
+}
+
+.confirm{
+    color: #212B36;
+    background-color: #BBE5B3;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+.sembuh{
+    color: #212B36;
+    background-color: #B7ECEC;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+.death{
+    color: #212B36;
+    background-color: #FEAD9A;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+.pencegahan{
+    margin: 50px 100px;
+    color: teal;
 }
