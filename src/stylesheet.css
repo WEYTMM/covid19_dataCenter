@@ -8,7 +8,7 @@ ul{
 }
 
 header {
-    background-image: url("./img/cover.jpg");
+    background-image: url("./img/cover1.jpg");
     background-repeat: none;
     background-size: cover;
     height: 800px;
@@ -37,30 +37,6 @@ header {
 
 li span{
   font-size: 34px;
-}
-
-.header-text {
-    margin-top: 100px;
-}
-
-.header-text h4{
-    margin: 0;
-    color: white;
-    font-size: 48px;
-    text-align: right;
-    padding-right: 100px;
-}
-
-.header-text h1{
-    margin: 0;
-    color: white;
-    font-size: 72px;
-    text-align: right;
-    padding-right: 100px;
-}
-
-.header-text{
-    padding: 50px 20px 100px 100px;
 }
 
 li a{
@@ -93,51 +69,84 @@ nav{
     justify-content: flex-start;
 }
 
-.information{
-    width: 70%;
-    height: 125px;
-    background-color: red;
-    border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 80px;
+.header-text {
+    margin: 0;
+    color: white;
+    margin-top: 200px;
+    margin-left: 50%;
+}
+
+.header-text h4 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.header-text p {
+    font-size: 18px;
+}
+
+.head-button {
+    background-color: dodgerblue;
+    width: 200px;
+    padding: 1px;
+    height: auto;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.btn-container {
+    display: flex;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.title-sta{
     text-align: center;
 }
 
-
-.data{
-    padding: 30px;
-    font-weight: bold;
+.jenis-container h1{
+    font-size: 48px;
+    margin: 0;
 }
 
-li img{
-    width: 20px;
+.jenis-container{
+    display: flex;
+    justify-content: center;
+}
+
+.jenis-container p {
+    margin: 0;
+}
+
+.jenis-container img {
+    width: 50px;
     height: auto;
 }
 
-.confirm{
-    color: #212B36;
-    background-color: #BBE5B3;
-    padding: 5px 25px;
-    border-radius: 20px;
+.status-container {
+    display: flex;
+    margin-right: 40px;    
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px 40px;
 }
 
-.sembuh{
-    color: #212B36;
-    background-color: #B7ECEC;
-    padding: 5px 25px;
-    border-radius: 20px;
+.logo-status{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
 }
 
-.death{
-    color: #212B36;
-    background-color: #FEAD9A;
-    padding: 5px 25px;
-    border-radius: 20px;
-}
-
-.pencegahan{
-    margin: 50px 100px;
-    color: teal;
+.peta-covid {
+    margin-top: 20px;
+    text-align: center;
 }
