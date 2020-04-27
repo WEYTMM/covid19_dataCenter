@@ -4,29 +4,59 @@ body{
 
 ul{
     margin: 0;
+    display: flex;
+}
+
+header {
+    background-image: url("./img/cover.jpg");
+    background-repeat: none;
+    background-size: cover;
+    height: 800px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;   
 }
 
 .navbar ul li {
+    display: flex;
     text-decoration: none;
     margin-right: 50px;
     list-style-type: none;
-    float: right;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .data ul li{
     text-decoration: none;
     margin: auto 60px;
     list-style-type: none;
-    float: left;  
+    float: left; 
 }
 
 li span{
   font-size: 34px;
 }
 
-.header-text h4, .header-text h1{
+.header-text {
+    margin-top: 100px;
+}
+
+.header-text h4{
     margin: 0;
     color: white;
+    font-size: 48px;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.header-text h1{
+    margin: 0;
+    color: white;
+    font-size: 72px;
+    text-align: right;
+    padding-right: 100px;
 }
 
 .header-text{
@@ -35,15 +65,17 @@ li span{
 
 li a{
     text-decoration: none;
-    color: white;    
+    color: white; 
+    
 }
 
 .navbar{
     font-size: 16px;
     padding-top: 20px; 
     margin-right: 20px;
+    justify-content: flex-end;
 }
-
+ 
 header{
     background-color: teal;
 }
@@ -57,17 +89,19 @@ nav{
     padding: 20px;
     width: 50px;
     height: auto;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .information{
     width: 70%;
     height: 125px;
-    background-color: white;
+    background-color: red;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -80px;
+    top: 80px;
     text-align: center;
 }
 
