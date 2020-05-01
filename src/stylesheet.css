@@ -285,7 +285,7 @@ article {
 }
 
 .container-cegah{
-    width: 90%;
+    width: 100%;
     display: flex;
     margin: auto;
     text-align: center;
@@ -294,7 +294,6 @@ article {
 
 .bolehtidakboleh{
     width: 50%;
-    display: flex;
     margin: 10px;
     text-align: center;
     justify-content: center;
@@ -307,10 +306,9 @@ article {
 
 .judul-bolehtidakboleh {
     text-align: center;
-    display: flex;
 }
 
-.do{
+.do h2{
     background-color: dodgerblue;
     width: 100%;
     height: 100%;
@@ -318,10 +316,107 @@ article {
     justify-content: center;
 }
 
-.dont{
+.dont h2{
     background-color : tomato;
     width: 100%;
     height: 100%;
     padding: 10px;
     justify-content: center;
+}
+
+.info-konten {
+    text-align: left;
+}
+
+.konten-bolehtidakboleh {
+    margin-top: 50px;
+}
+
+.info-konten{
+    color:white;
+    display: flex;
+}
+
+.lg-infokonten{
+    padding:20px;
+    background-color: tomato;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-infokonten{
+    width: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tips-infokonten{
+    width: 75%;
+}
+
+.info-dokter{
+    padding:40px;
+    text-align: center;    
+    margin-top: 50px;
+}
+
+.title-dokter p, .title-dokter h1 {
+    margin: 0;
+}
+
+.dokter-spesialis{
+    display: flex;    
+    margin-top: 80px;  
+}
+
+.dokter{   
+    /* border: 1px solid turquoise;     */
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.para-dokter{
+    width: 100%;
+    padding: 20px;
+}
+
+.foto-dokter img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.keterangan-dokter{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.keterangan-dokter h3, .keterangan-dokter p {
+    margin: 0;
+}
+
+.ciri-ciri{
+    margin-top: 80px;
+    display: flex;  
+    justify-content: flex-end;
+}
+
+.container-ciri{
+    width: 50%;
+
+}
+
+.sebelah-ciri {
+    display: flex;
+}
+
+.cirinya{
+    width: 50%;
 }
