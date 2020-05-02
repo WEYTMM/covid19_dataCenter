@@ -403,7 +403,7 @@ article {
 }
 
 .ciri-ciri{
-    margin-top: 80px;
+    margin: 80px 0px;
     display: flex;  
     justify-content: flex-end;
 }
@@ -420,3 +420,28 @@ article {
 .cirinya{
     width: 50%;
 }
+
+.inti-ciri {
+    border: 1px solid cornflowerblue;
+    padding: 10px 30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    }
+
+.inti-ciri span{
+    padding: 20px;
+    background-color: tomato;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
