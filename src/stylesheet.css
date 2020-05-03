@@ -444,4 +444,124 @@ article {
     justify-content: center;
 }
 
+.konten-title p, .konten-title h1{
+    display: flex;
+    justify-content: center;
+}
 
+.container-berita {
+    width: 30%;
+    padding: 20px;
+}
+
+.gambar-berita img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.keterangan-berita {
+    text-align: left;
+}
+
+.keterangan-berita p, .keterangan-berita h2 {
+   margin-bottom: 10px;
+}
+
+.keterangan-berita span {
+    border-bottom: 2px solid darkslateblue;
+}
+
+.konten-isi {
+    display: flex;
+}
+
+.container-berita{
+    width: 100%;
+}
+
+footer{
+    margin-top: 80px;
+    background-color: darkslateblue;
+}
+
+.top-footer h1{
+    color: white;
+    
+}
+
+.top-footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.konten-top {
+    align-items: center;
+    display: flex;
+}
+
+.form-konten {
+    background-color: white;
+    width: 700px;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.konten-top h1 {
+    margin: 0;
+    margin-right: 100px;
+}
+
+
+
+.send-bottom {
+    background-color: dodgerblue;
+    height: 100%;
+    width: 30%;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midle-footer {
+    display: flex;
+    color: white;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+.midle-konten {
+    width: 25%;
+    padding: 20px;
+}
+
+.logo-footer img {
+    width: 100%;
+}
+
+.title-footer {
+    margin-bottom: 40px;
+    border-bottom: 2px solid white;
+}
+
+.isi-footer p {
+    font-weight:bold;
+}
+
+.bottom-footer {
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
