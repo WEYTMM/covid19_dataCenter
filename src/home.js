@@ -9,3 +9,5 @@ function scrollFunction() {
       document.getElementById("navbar").style.transition = "0.3s";
     }
   }
+
+  

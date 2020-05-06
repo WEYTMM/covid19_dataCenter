@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 #color1{
@@ -23,6 +24,7 @@ ul{
 header {
     background-image: url("./img/cover1.jpg");
     background-repeat: none;
+    background-attachment: fixed;
     background-size: cover;
     height: 800px;
 }
@@ -325,6 +327,14 @@ article {
     line-height: 5px;
     padding: 0px 20px;
     margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.layanan-hotline span img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
 }
 
 .layanan-hotline p {
@@ -394,6 +404,7 @@ article {
 
 .judul-bolehtidakboleh h2{
     color: white;
+    margin: 0;
 }
 
 .judul-bolehtidakboleh {
@@ -409,7 +420,7 @@ article {
 }
 
 .dont h2{
-    background-color : tomato;
+    background-color : #c35362;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -476,11 +487,16 @@ article {
     display: flex;
     justify-content: center;
     border-radius: 8px;
+    width: 100%;
 }
 
 .para-dokter{
     width: 100%;
     padding: 20px;
+}
+
+.foto-dokter {
+    width: 100%;
 }
 
 .foto-dokter img {
@@ -502,6 +518,11 @@ article {
     margin: 80px 0px;
     display: flex;  
     justify-content: flex-end;
+    background-image: url(./img/ciri-ciri.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 50px 0;
 }
 
 .container-ciri{
@@ -509,12 +530,9 @@ article {
     margin: 70px 0;
 }
 
-
-
-.deskripsi-ciri p, .deskripsi-ciri h1 {
+.judulatas-ciri p, .judulatas-ciri h1 {
     margin: 0;
 }
-
 .sebelah-ciri {
     display: flex;
 }
@@ -524,31 +542,42 @@ article {
 }
 
 .inti-ciri {
-    border: 1px solid cornflowerblue;
-    padding: 10px 30px;
     margin-right: 20px;
     display: flex;
     justify-content: left;
     align-items: center;
     margin-bottom: 20px;
     border-radius: 10px;
-    }
+    
+}
 
-.inti-ciri span{
-    padding: 20px;
-    background-color: tomato;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+.inti-ciri:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.inti-ciri img {
+    width: 15%;
     margin-right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.utama-ciri {
+    margin-top: 50px;
+}
+
+.konten{
+    margin-top: 70px;
+}
+
+.konten-title{
+    padding-top:50px;
+    margin-bottom: 70px;
 }
 
 .konten-title p, .konten-title h1{
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .container-berita {
@@ -586,16 +615,20 @@ footer{
     background-color: #130947;
 }
 
+hr {
+    width: 88%;
+   margin-bottom: 100px;
+}
+
 .top-footer h1{
     color: white;
     
 }
 
 .top-footer {
-    padding: 50px;
+    padding: 100px 50px;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
 
 .konten-top {
@@ -606,7 +639,7 @@ footer{
 .form-konten {
     background-color: white;
     width: 700px;
-    height: 60px;
+    height: 50px;
     border-radius: 10px 0 0 10px;
     border: none;
     font-size: 18px;
@@ -650,13 +683,21 @@ footer{
     width: 100%;
 }
 
-.title-footer {
-    margin-bottom: 40px;
-    border-bottom: 2px solid white;
+.title-footer h2{
+    margin: 0;
+}
+
+.garis-footer{
+    width: 50%;
+    height: 3px;
+    background-color: dodgerblue;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0  50% 50% 0;
 }
 
 .isi-footer p {
-    font-weight:bold;
+    font-weight:normal;
 }
 
 .bottom-footer {
