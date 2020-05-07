@@ -94,8 +94,7 @@ li a{
 .navbar{
     font-size: 16px;
     padding-top: 20px; 
-    margin-right: 20px;
-    justify-content: flex-end;
+    margin-right: 70px;
 }
  
 header{
@@ -105,13 +104,15 @@ header{
 nav{
     display: flex;
     position: fixed; 
+    z-index: 10;
     justify-content: space-between;
     width: 100%;
+    padding: 15px 0;
 }
 
 #content{
     width: 75%;    
-    margin-right: 0;
+    margin-left: 70px;
 }
 
 aside {
@@ -133,8 +134,8 @@ aside img{
 }
 
 .header-logo img{
-    padding: 20px;
-    width: 100px;
+    margin: 0 70px;
+    width: 200px;
     height: auto;
     display: flex;
     justify-content: flex-start;
@@ -272,7 +273,11 @@ article {
 
 .informasi{
     width: 50%;
+}
+
+.informasikanan{
     margin-left: 20px;
+    width: 50%;
 }
 
 .informasi h1{
@@ -282,6 +287,12 @@ article {
 
 
 .informasi img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.informasikanan img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -440,15 +451,9 @@ article {
     display: flex;
 }
 
-.lg-infokonten{
-    padding:20px;
-    background-color: tomato;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.lg-infokonten img{
+    width: 100%;
+   
 }
 
 .logo-infokonten{
@@ -608,6 +613,12 @@ article {
 
 .container-berita{
     width: 100%;
+}
+
+aside{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 200px;
 }
 
 footer{
