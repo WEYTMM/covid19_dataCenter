@@ -31,13 +31,12 @@ header {
     background-repeat: none;
     background-attachment: fixed;
     background-size: cover;
-    height: 800px;
+    height: 100vh;
 }
 
 .top {
     display: flex;
     justify-content: space-between;  
-   
 }
 
 .navbar ul li {
@@ -123,6 +122,7 @@ nav{
 }
 
 aside {
+    margin-top: 30px;
     width: 25%;
     height: 480px;
     background-color: white;
@@ -134,7 +134,6 @@ aside {
     position: -webkit-sticky;
     position: sticky;
     top: 120px;    
-    margin-right: 20px;
 }
 
 aside img{
@@ -198,16 +197,16 @@ aside img{
 }
 
 main {
-    margin-top: 50px;
     width: 100%;
     display: flex;
 }
 
 .statistik-covid{
-    padding-top: 50px;
+    padding: 50px 0;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     border-radius: 20px;
+    margin-top: 30px;
 }
 
 .title-sta{
@@ -243,7 +242,7 @@ main {
 .jenis-container{
     display: flex;
     justify-content: center;
-    flex : wrap;
+    flex-wrap : wrap;
 }
 
 .jenis-container p {
@@ -277,12 +276,11 @@ main {
 }
 
 article {
-    margin-top: 100px;
+    margin-top: 30px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    border-radius: 20px;
-    padding: 20px;
+    padding: 50px 20px;
 }
 
 .peta-covid img {
@@ -471,11 +469,12 @@ article {
 
 .info-konten {
     text-align: left;
+    padding: 20px 0;
+    border-right: 1px solid #1c5088;
+    border-left: 1px solid #1c5088;
+    border-bottom: 1px solid #1c5088;
 }
 
-.konten-bolehtidakboleh {
-    margin-top: 50px;
-}
 
 .info-konten{
     color:white;
@@ -501,7 +500,7 @@ article {
 .info-dokter{
     padding:40px;
     text-align: center;    
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     border-radius: 20px;
@@ -555,7 +554,7 @@ article {
 }
 
 .ciri-ciri{
-    margin: 80px 0px;
+    margin: 30px 0px;
     display: flex;  
     justify-content: flex-end;
     background-image: url(./img/ciri-ciri.jpg);
@@ -609,7 +608,8 @@ article {
 }
 
 .konten{
-    margin-top: 70px;
+    padding: 50px 0;
+    margin-top: 30px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     border-radius: 20px;
@@ -723,6 +723,14 @@ hr {
     margin: auto;
 }
 
+.midle-kontenlogo img{
+    width: 100%;
+}
+
+.midle-kontenlogo{
+    width: 25%;
+}
+
 .midle-konten {
     width: 25%;
     padding: 20px;
@@ -755,5 +763,23 @@ hr {
     font-size: 16px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 70px;
+}
+
+.footer-keterangan p{
+    margin: 0;
+}
+
+.footer-keterangan {
+    padding-left: 20px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-social img{
+    width: 30px;
+    margin-right: 20px;
 }

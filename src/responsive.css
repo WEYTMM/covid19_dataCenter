@@ -1,0 +1,14 @@
+@media screen  and (max-width: 1024px){
+.status-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+aside{
+    height: 73vh;
+}
+
+}
