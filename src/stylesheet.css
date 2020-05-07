@@ -11,6 +11,10 @@
     color: #007bff;
 }
 
+html{
+    background-color: rgb(227, 231, 238);
+}
+
 body{
     margin:0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -20,6 +24,7 @@ ul{
     margin: 0;
     display: flex;
 }
+
 
 header {
     background-image: url("./img/cover1.jpg");
@@ -101,6 +106,7 @@ header{
     background-color: teal;
 }
 
+
 nav{
     display: flex;
     position: fixed; 
@@ -113,17 +119,22 @@ nav{
 #content{
     width: 75%;    
     margin-left: 70px;
+    margin-right: 20px;
 }
 
 aside {
     width: 25%;
-    height: 400px;
+    height: 480px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     text-align: center;
     line-height: 5px;
     padding : 20px 0px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;    
+    margin-right: 20px;
 }
 
 aside img{
@@ -190,6 +201,13 @@ main {
     margin-top: 50px;
     width: 100%;
     display: flex;
+}
+
+.statistik-covid{
+    padding-top: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 
 .title-sta{
@@ -260,6 +278,11 @@ main {
 
 article {
     margin-top: 100px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .peta-covid img {
@@ -269,6 +292,7 @@ article {
 .berita-terkini{
     display: flex;
     margin-bottom: 70px;
+    height: 100%;
 }
 
 .informasi{
@@ -282,20 +306,26 @@ article {
 
 .informasi h1{
     font-size: 48px;
-    line-height: 5px;
+    margin: 0;
 }
 
+.informasikanan h1{
+    font-size: 48px;
+    margin: 0;
+}
 
 .informasi img {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    height:100%;
 }
 
 .informasikanan img {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    height:100%;
 }
 
 .informasi-tombol {
@@ -371,6 +401,8 @@ article {
     background-color: #130947;
     padding: 40px;  
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 
 .title-cegah {
@@ -410,7 +442,6 @@ article {
     margin: 10px;
     text-align: center;
     justify-content: center;
-    border: 1px solid white;
 }
 
 .judul-bolehtidakboleh h2{
@@ -471,10 +502,14 @@ article {
     padding:40px;
     text-align: center;    
     margin-top: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border-radius: 20px;
 }
 
 .title-dokter {
-    margin: 70px 0;
+    margin: 50px 0;
 }
 
 .title-dokter p, .title-dokter h1 {
@@ -528,6 +563,8 @@ article {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 50px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 
 .container-ciri{
@@ -544,12 +581,13 @@ article {
 
 .cirinya{
     width: 50%;
+    
 }
 
 .inti-ciri {
     margin-right: 20px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -572,6 +610,11 @@ article {
 
 .konten{
     margin-top: 70px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border-radius: 20px;
+    padding-bottom: 50px;
 }
 
 .konten-title{
@@ -615,11 +658,6 @@ article {
     width: 100%;
 }
 
-aside{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 200px;
-}
 
 footer{
     margin-top: 80px;
@@ -712,7 +750,7 @@ hr {
 }
 
 .bottom-footer {
-    background-color: navy;
+    background-color: rgb(4, 30, 87);
     color: white;
     font-size: 16px;
     display: flex;
