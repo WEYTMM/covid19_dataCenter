@@ -10,4 +10,13 @@ function scrollFunction() {
     }
   }
 
+function dropdown_burger(){
+
+  if(document.getElementById("burger-dropdown").getAttribute("class") == "dropdown-burger"){
+    document.getElementById("burger-dropdown").setAttribute("class","dropdown-burgeractive");
+  }
+  else{
+    document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
+  }
+}
   

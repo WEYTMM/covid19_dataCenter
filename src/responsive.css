@@ -1,91 +1,241 @@
 @media screen  and (max-width: 1024px){
-.status-container{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
-    margin-bottom: 30px;
+    .status-container{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .header-text{
+        margin-top: 150px;
+        margin-left: 40%;
+    }
+
+    aside{
+        height: 73vh;
+    }
+
+    .berita-terkini{
+        height: 80vh;
+    }
+
+    .informasi h1{
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .informasikanan h1{
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .informasi p{
+        font-size: 15px;
+    }
+
+    .informasikanan p{
+        font-size: 15px;
+    }
+
+    .layanan-hotline p {
+        font-size: 12px;
+    }
+
+    .emergency-text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .emergency-text h2{
+        font-size: 18px;
+    }
+
+    .emergency-text p{
+        font-size: 12px;
+    }
+
+
+
+    .emergency-info{
+        margin: auto;
+    }
+
+    .container-cegah{
+        display: block;
+    }
+
+    .bolehtidakboleh {
+        width: 100%;
+        margin: 0 0 50px 0;
+        
+    }
+
+    .konten-top h1 {
+        font-size: 24px;
+        margin-right: 20px;
+    }
+
+    .top-footer {
+        width: 100%;
+    }
+
+    .konten-top {
+        margin-right: 20px;
+    }
+
+    .form-konten {
+        width: 430px;
+    }
+
 }
 
-.header-text{
-    margin-top: 150px;
-    margin-left: 40%;
-}
+@media screen  and (max-width: 768px){
 
-aside{
-    height: 73vh;
-}
+    html {
+        width: 100%;
+    }
 
-.berita-terkini{
-    height: 80vh;
-}
+    main {
+        display: block;
+        width: 100%;
+    }
 
-.informasi h1{
-    font-size: 32px;
-    margin: 0;
-}
+    #content{
+        width: 100%;
+        margin: 0;
+        padding: 0 40px;
+    }
 
-.informasikanan h1{
-    font-size: 32px;
-    margin: 0;
-}
+    aside{
+        width: 90%;
+        margin: 30px auto;
+    }
 
-.informasi p{
-    font-size: 15px;
-}
+    .navbar{
+        display: none;
+    }
 
-.informasikanan p{
-    font-size: 15px;
-}
+    .burgermenu {
+        display: block;
+        margin: auto 60px;
+        position: relative;
+        cursor: pointer;
+    }
 
-.layanan-hotline p {
-    font-size: 12px;
-}
-
-.emergency-text{
-    text-align: center;
-    width: 100%;
-}
-
-.emergency-text h2{
-    font-size: 18px;
-}
-
-.emergency-text p{
-    font-size: 12px;
-}
+    .header-logo img {
+        margin: 0 40px;
+    }
 
 
+    .dropdown-burger{
+        position: absolute;
+        top: 93px;
+        background-color: white;
+        width: 90%;
+        margin: 0 40px;
+        display: none;
+    }
 
-.emergency-info{
-    margin: auto;
-}
+    .dropdown-burgeractive{
+        position: absolute;
+        top: 93px;
+        background-color: white;
+        width: 90%;
+        margin: 0 40px;
+        display: block;
+        
+    }
 
-.container-cegah{
-    display: block;
-}
+    .dropdown-burgeractive li {
+        list-style-type: none;
+        text-decoration: none;
+    }
 
-.bolehtidakboleh {
-    width: 100%;
-    margin: 0 0 50px 0;
-    
-}
 
-.konten-top h1 {
-    font-size: 24px;
-    margin-right: 20px;
-}
 
-.top-footer {
-    width: 100%;
-}
+    .dropdown-burgeractive li {
+        margin: 25px;
+    }
 
-.konten-top {
-    margin-right: 20px;
-}
+    .dropdown-burgeractive li a {
+        color: #130947;
+    }
 
-.form-konten {
-    width: 430px;
-}
+    .header-text {
+        padding: 150px 40px 0 40px;
+        margin: auto 60px;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .btn-container {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .head-button{
+        width: 200px;
+        padding: 15px 3px;
+    }
+
+    .head-button p{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .para-dokter{
+        padding: 0;
+    }
+
+    .keterangan-dokter h3 {
+        font-size: 16px;
+    }
+
+    .keterangan-dokter p {
+        font-size: 14px;
+    }
+
+    .container-ciri{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.4);
+        height: 100%;
+        padding: 70px 40px;
+    }
+
+    .ciri-ciri {
+        padding: 0;
+    }
+
+    .top-footer{
+        display: block;
+        padding: 50px;
+    }
+
+    .konten-top {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 30px;
+       
+    }
+
+    .send-bottom{
+        height: 50px;
+    }
+
+    .midle-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .midle-konten{
+        width: 50%;
+    }
+
+    .midle-kontenlogo {
+        width: 50%;
+    }
 
 }

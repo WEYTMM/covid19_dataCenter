@@ -49,7 +49,14 @@ header {
     cursor: pointer;
 }
 
+.burgermenu {
+    width: 40px;
+    display: none;
+}
 
+.burgermenu img {
+    width: 100%;
+}
 
 .dropdown{
     position: relative;
@@ -61,6 +68,11 @@ header {
     position: absolute;
     background-color: white;
 
+}
+
+.dropdown-burger{
+    
+    display: none;
 }
 
 .dropdown-isi li a{
