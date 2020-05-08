@@ -384,14 +384,24 @@
     .form-konten {
         height: 40px;
         padding: 10px;
-        font-size: 16px;
+        font-size: 12px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        text-align: center;
     }
 
     .send-bottom {
         height: 40px;
-        padding: 10px;
-        font-size: 16px;
+        width: 50%;
+        padding: 10px 20px;
+        font-size: 12px;
         display: inline-block;
+        border-radius: 8px;
+    }
+
+    .konten-top{
+       display: flex;
+       flex-wrap: wrap; 
     }
 
     .midle-konten{
