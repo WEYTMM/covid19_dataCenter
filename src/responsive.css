@@ -1,14 +1,91 @@
 @media screen  and (max-width: 1024px){
 .status-container{
-    width: 90%;
+    width: 30%;
     display: flex;
     justify-content: center;
-    margin-right: 0;
+    margin: 0 10px;
     margin-bottom: 30px;
+}
+
+.header-text{
+    margin-top: 150px;
+    margin-left: 40%;
 }
 
 aside{
     height: 73vh;
+}
+
+.berita-terkini{
+    height: 80vh;
+}
+
+.informasi h1{
+    font-size: 32px;
+    margin: 0;
+}
+
+.informasikanan h1{
+    font-size: 32px;
+    margin: 0;
+}
+
+.informasi p{
+    font-size: 15px;
+}
+
+.informasikanan p{
+    font-size: 15px;
+}
+
+.layanan-hotline p {
+    font-size: 12px;
+}
+
+.emergency-text{
+    text-align: center;
+    width: 100%;
+}
+
+.emergency-text h2{
+    font-size: 18px;
+}
+
+.emergency-text p{
+    font-size: 12px;
+}
+
+
+
+.emergency-info{
+    margin: auto;
+}
+
+.container-cegah{
+    display: block;
+}
+
+.bolehtidakboleh {
+    width: 100%;
+    margin: 0 0 50px 0;
+    
+}
+
+.konten-top h1 {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.top-footer {
+    width: 100%;
+}
+
+.konten-top {
+    margin-right: 20px;
+}
+
+.form-konten {
+    width: 430px;
 }
 
 }
