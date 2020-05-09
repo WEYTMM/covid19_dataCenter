@@ -17,7 +17,7 @@
     }
 
     .berita-terkini{
-        height: 80vh;
+        height: 100%;
     }
 
     .informasi h1{
@@ -101,6 +101,16 @@
         width: 100%;
     }
 
+
+    .konten-isi{
+        justify-content: space-around;
+    }
+
+    .konten-berita{
+        width: 40%;
+        
+    }
+
     #content{
         width: 100%;
         margin: 0;
@@ -156,7 +166,13 @@
         text-decoration: none;
     }
 
+    .dokter {
+        width: 40%;
+    }
 
+    .dokter-spesialis {
+        justify-content: space-around;
+    }
 
     .dropdown-burgeractive li {
         margin: 25px;
@@ -255,9 +271,13 @@
     }
 
     .header-text {
-        padding: 150px 30px;
+        padding: 100px 30px;
         background-color: rgba(0, 0, 0, 0.3);
         margin: auto;
+    }
+
+    .head-button {
+        margin-bottom: 50px;
     }
 
     .header-text h1{
@@ -266,17 +286,22 @@
 
     .btn-container {
         width: 100%;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .head-button {
-        padding: 10px 5px;
+        width: 100%;
+        padding: 15px 5px;
         margin: 0;
-        margin: 0 10px;
+        margin: 0 10px 20px 10px;
+    }
+
+    .head-button span img {
+        width: 70%;
     }
 
     .head-button p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     #content {
@@ -303,7 +328,7 @@
     .berita-terkini{
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .informasi {
@@ -341,6 +366,10 @@
         padding: 20px 0; 
     }
 
+    .dokter{
+        width: 100%;
+    }
+
     .emergency-call {
         padding: 15px 0; 
         width: 80%;
@@ -352,6 +381,10 @@
     .infokonten{
         display: flex;
         justify-content: center;
+    }
+
+    .konten-berita {
+        width: 100%;
     }
 
     .tips-infokonten{

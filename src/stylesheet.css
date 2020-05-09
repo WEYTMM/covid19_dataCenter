@@ -201,15 +201,25 @@ aside img{
     cursor: pointer;    
 }
 
-.head-button span img {
-    width: 20px;
+.head-button span {
+    width: 10%;
     height: auto;
     fill: white;
     margin-right: 15px;
 }
 
+.head-button span img {
+    width: 100%;
+}
+
 .btn-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.head-button {
+    margin-bottom: 20px;
 }
 
 main {
@@ -539,11 +549,11 @@ article {
 
 .dokter{   
     /* border: 1px solid turquoise;     */
-    margin: 0 10px;
+    margin: 20px 10px;
     display: flex;
     justify-content: center;
     border-radius: 8px;
-    width: 100%;
+    width: 30%;
     flex-wrap: wrap;
 }
 
@@ -671,6 +681,11 @@ article {
 .konten-isi {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.konten-berita {
+    width: 30%;
 }
 
 .container-berita{
