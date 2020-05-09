@@ -20,3 +20,12 @@ function dropdown_burger(){
   }
 }
   
+
+
+function tampilVideo(){
+  document.getElementById("thisModal").style.display = "block";
+}
+
+function closeVideo(){
+  document.getElementById("thisModal").style.display = "none";
+}

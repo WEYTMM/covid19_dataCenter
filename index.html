@@ -60,12 +60,22 @@
                     <span><img src="./src/icon/weapons.svg" alt=""></span>
                     <p>Pelajari Lebih Lanjut</p>
                 </div>
-                <div class="head-button">
+                <div class="head-button" onclick="tampilVideo()">
                     <span><img src="./src/icon/multimedia.svg" alt=""></span>
                     <p>Tonton Video</p>
                 </div>
-            </div>
+            </div>       
         </div>
+
+         <!-- Pop up video -->
+        <div class="modal" id="thisModal">
+            <div class="modal-konten">
+               <div class="tempat">
+                <iframe  src="https://www.youtube.com/embed/eZGMEXWzXEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               <span class="close" onclick="closeVideo()">&times;</span>
+           </div>
+       </div>
     </header>
     <main>
         <div id="content">
