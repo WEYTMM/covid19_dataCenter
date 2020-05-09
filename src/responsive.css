@@ -149,21 +149,21 @@
         width: 90%;
         margin: 0 40px;
         display: none;
+       
     }
 
     .dropdown-burgeractive{
         position: absolute;
         top: 93px;
         background-color: white;
-        width: 90%;
-        margin: 0 40px;
+        width: 100%;
         display: block;
-        
     }
 
     .dropdown-burgeractive li {
         list-style-type: none;
         text-decoration: none;
+        transition:  all 2s linear;
     }
 
     .dokter {
@@ -266,12 +266,16 @@
         margin: auto 20px auto 0;
     }
 
+    article {
+        padding: 50px 10px;
+    }
+
     .burgermenu img {
         width: 30px;
     }
 
     .header-text {
-        padding: 100px 30px;
+        padding: 150px 30px;
         background-color: rgba(0, 0, 0, 0.3);
         margin: auto;
     }
@@ -346,7 +350,9 @@
         width: 100%;
     }
 
-
+    .info-cegah {
+        padding: 5px 10px;
+    }
 
     .hotline{
         background: dodgerblue;
@@ -410,9 +416,19 @@
         padding: 0;
     }
 
+    .konten-title {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
     .title-dokter{
         padding-top: 80px;
     }
+
+    .container-ciri {
+        padding: 70px 10px;
+    }
+
 
     .form-konten {
         height: 40px;
@@ -448,6 +464,10 @@
     .social-media {
         justify-content: flex-start;
         padding: 20px;
+    }
+
+    .container-berita {
+        padding: 20px 10px;
     }
 
     .bottom-footer {
