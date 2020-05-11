@@ -27,5 +27,12 @@ function tampilVideo(){
 }
 
 function closeVideo(){
-  document.getElementById("thisModal").style.display = "none";
+  var modalIni = document.getElementById("thisModal");
+  modalIni.style.display = "none";
+  stopVideo(modalIni)
+}
+
+function stopVideo(modal){
+  var videoIframe = modal.querySelector("iframe");
+  videoIframe.src = videoIframe.src  
 }
