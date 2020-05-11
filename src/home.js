@@ -40,54 +40,85 @@ function stopVideo(modal){
 
 
 // Scroll into view
-
-
-  var berandaklik = document.getElementById("klikberanda");
-  berandaklik.addEventListener("click", berandascroll);
-
-  var statistikklik = document.getElementById("klikstatistika");
-  statistikklik.addEventListener("click",statistikscroll);
-
-  var covidklik = document.getElementById("klikcovid");
-  covidklik.addEventListener("click",covidscroll);
-
-
-  var tentangklik = document.getElementById("kliktentang");
-  tentangklik.addEventListener("click",tentangscroll);
-
-
 function berandascroll(){
   var br = document.getElementById("halamanberanda");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
   br.scrollIntoView({
     behavior: "smooth",
     inline : "center",
-    block : "nearest"
+    block : "start"
   });
 }
 
 
-function statistikscroll(){
+function statistikascroll(){
   var elemen = document.getElementById("halamanstatistik");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
   elemen.scrollIntoView({
     behavior: "smooth",
     inline : "center",
-    block : "nearest"
+    block : "start"
   });
 }
 
 function covidscroll(){
   var cv = document.getElementById("halamancovid");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
   cv.scrollIntoView({
     behavior: "smooth",
     inline : "center",
-    block : "nearest"
+    block : "start"
+  });
+}
+
+function pencegahanscroll(){
+  var pc = document.getElementById("halamanpencegahan");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
+  pc.scrollIntoView({
+    behavior: "smooth",
+    inline : "center",
+    block : "start"
+  });
+}
+
+function dokterscroll(){
+  var dk = document.getElementById("halamandokter");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
+  dk.scrollIntoView({
+    behavior: "smooth",
+    inline : "center",
+    block : "start"
+  });
+}
+
+function ciriciriscroll(){
+  var cr = document.getElementById("halamanciri-ciri");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
+  cr.scrollIntoView({
+    behavior: "smooth",
+    inline : "center",
+    block : "start"
+  });
+}
+
+function blogscroll(){
+  var bl = document.getElementById("halamanblog");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
+  bl.scrollIntoView({
+    behavior: "smooth",
+    inline : "center",
+    block : "start"
   });
 }
 
 function tentangscroll(){
   var tt = document.getElementById("halamantentang");
-  tt.scrollIntoView();
-  console.log("sudahklik");
+  document.getElementById("burger-dropdown").setAttribute("class","dropdown-burger");
+  tt.scrollIntoView({
+    behavior: "smooth",
+    inline : "center",
+    block : "start"
+  });
 }
 
 
@@ -108,19 +139,12 @@ function numberFunction(){
 
 //
 function animateValue(id, start, end, duration) {
-  // assumes integer values for start and end
   
   var obj = document.getElementById(id);
   var range = end - start;
-  // no timer shorter than 50ms (not really visible any way)
   var minTimer = 50;
-  // calc step time to show all interediate values
   var stepTime = Math.abs(Math.floor(duration / range));
-  
-  // never go below minTimer
   stepTime = Math.max(stepTime, minTimer);
-  
-  // get current time and calculate desired end time
   var startTime = new Date().getTime();
   var endTime = startTime + duration;
   var timer;
@@ -137,4 +161,18 @@ function animateValue(id, start, end, duration) {
   
   timer = setInterval(run, stepTime);
   run();
+}
+
+
+function besarGambar(x){
+  x.style.height = "54px";
+  x.style.width = "54px";
+  x.transform =  "scale(1.5)"; 
+}
+
+function kecilGambar(x){
+  x.style.height = "32px";
+  x.style.width = "32px";
+  
+  x.transform =  "scale(1)"; 
 }

@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-margin-top: 3em;
 }
 
 #color1{
@@ -363,6 +364,9 @@ main {
 .peta-covid {
     margin-top: 20px;
     text-align: center;
+    padding: 0 20px;
+    
+
 }
 
 article {
@@ -743,6 +747,11 @@ article {
     border-bottom: 2px solid #130947;
 }
 
+.keterangan-berita span a {
+    text-decoration: none;
+    color: #130947;
+}
+
 .konten-isi {
     display: flex;
     flex-wrap: wrap;
@@ -885,4 +894,33 @@ hr {
 .link-social img{
     width: 30px;
     margin-right: 20px;
+}
+
+.skil {
+    margin-top: 50px;
+   
+}
+
+.skill-ket{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.skil h4 {
+    margin-bottom: 0;
+}
+
+.skill-ket p {
+    padding: 10px;
+    border: 1px solid dodgerblue;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.skill-ket p:hover {
+    background-color: dodgerblue;
+    color: white;
 }

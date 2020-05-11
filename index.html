@@ -20,32 +20,33 @@
                 </div>
                 <div class="navbar">
                     <ul>
-                        <li id="klikberanda"> <a href="#">Beranda</a></li>
-                        <li id="klikstatistika"> <a>Statistik</a></li>
+                        <li onclick="berandascroll()"> <a href="#">Beranda</a></li>
+                        <li onclick="statistikascroll()"> <a>Statistik</a></li>
                         <div class="dropdown">
-                            <li> <a href="#">Informasi</a></li>
+                            <li> <a >Informasi</a></li>
                             <div class="dropdown-isi">
-                                <li id="klikcovid"> <a href="#">Covid-19</a></li>
-                                <li id="klikpencegahan"> <a href="#">Pencegahan</a></li>
-                                <li id="klikdokter"> <a href="#">Dokter</a> </li>
-                                <li id="klikciri-ciri"> <a href="#">Ciri-ciri</a> </li>
-                                <li id="klikblog"> <a href="#">Blog</a> </li>
+                                <li onclick="covidscroll()"> <a>Covid-19</a></li>
+                                <li onclick="pencegahanscroll()"> <a>Pencegahan</a></li>
+                                <li onclick="dokterscroll()"> <a>Dokter</a> </li>
+                                <li onclick="ciriciriscroll()"> <a>Ciri-ciri</a> </li>
+                                <li onclick="blogscroll()"><a>Blog</a> </li>
                             </div>
                         </div>                
-                        <li id="kliktentang"> <a href="#">Tentang</a> </li>
+                        <li onclick="tentangscroll()"> <a>Tentang</a> </li>
                     </ul>
                 </div>
                 <div class="burgermenu" onclick="dropdown_burger()">
                     <img src="./src/icon/bars (1).svg" alt="">
                 </div>
                 <ul class="dropdown-burger" id="burger-dropdown">
-                    <li> <a href="#">Beranda</a></li>
-                    <li><a href="#">Statistik</a></li>
-                    <li><a href="#">Covid-19</a></li>
-                    <li><a href="#">Pencegahan</a></li>
-                    <li><a href="#">Dokter</a></li>
-                    <li><a href="#">Ciri-ciri</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Beranda</a></li>
+                    <li onclick="statistikascroll()"><a>Statistik</a></li>
+                    <li onclick="covidscroll()"><a>Covid-19</a></li>
+                    <li onclick="pencegahanscroll()"><a>Pencegahan</a></li>
+                    <li onclick="dokterscroll()"><a>Dokter</a></li>
+                    <li onclick="ciriciriscroll()"><a>Ciri-ciri</a></li>
+                    <li onclick="blogscroll()"><a>Blog</a></li>
+                    <li onclick="tentangscroll()"> <a>Tentang</a> </li>
                 </ul>
                 
             </nav>
@@ -115,7 +116,7 @@
                         </div>
                     </div>
                     <div class="peta-covid">
-                        <img src="./src/img/Worldmap-blank.svg" alt="">
+                        <img src="./src/img/id.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -135,16 +136,13 @@
                         <div class="informasikanan">
                             <h1 id="color1">Apa itu Covid19 ?</h1>
                             <h4 id="color2">Covid19 Virus yang menyerang pernafasan</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Magni possimus ducimus nostrum nulla? Modi voluptatibus quo earum est architecto, doloremque, optio eum consequatur ipsum esse, 
-                                laudantium quisquam voluptatum dicta nemo.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                Asperiores totam laudantium maiores debitis vitae unde quas possimus esse repellendus consequuntur inventore facere, 
-                                placeat sequi quo obcaecati velit quos sint temporibus!</p>
-                        
-                            <div class="informasi-tombol">
-                                Baca selanjutnya >
-                            </div>
+                            <p>Coronavirus adalah suatu kelompok virus yang dapat menyebabkan penyakit pada hewan atau manusia. Beberapa jenis coronavirus diketahui menyebabkan infeksi saluran nafas pada manusia mulai dari batuk pilek hingga yang lebih serius seperti Middle East Respiratory Syndrome (MERS) dan Severe Acute Respiratory Syndrome (SARS). Coronavirus jenis baru yang ditemukan menyebabkan penyakit COVID-19.</p>
+                            <p>COVID-19 adalah penyakit menular yang disebabkan oleh jenis coronavirus yang baru ditemukan. Ini merupakan virus baru dan penyakit yang sebelumnya tidak dikenal sebelum terjadi wabah di Wuhan, Tiongkok, bulan Desember 2019.</p>
+                            <a href="https://www.who.int/indonesia/news/novel-coronavirus/qa-for-public" target="_blank">
+                                <div class="informasi-tombol">
+                                    Baca selanjutnya >
+                                </div>
+                             </a>
                         </div>
                     </div>
                     <div class="berita-terkini">
@@ -154,16 +152,13 @@
                         <div class="informasikanan">
                             <h1 id="color1">Rapid Test Masiv</h1>
                             <h4 id="color2">Efektivitas Rapid Test Untuk Deteksi Dini</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Magni possimus ducimus nostrum nulla? Modi voluptatibus quo earum est architecto, doloremque, optio eum consequatur ipsum esse, 
-                                laudantium quisquam voluptatum dicta nemo.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                Asperiores totam laudantium maiores debitis vitae unde quas possimus esse repellendus consequuntur inventore facere, 
-                                placeat sequi quo obcaecati velit quos sint temporibus!</p>
-                        
-                            <div class="informasi-tombol">
-                                Baca selanjutnya >
-                            </div>
+                            <p>Rapid test adalah metode skrining awal untuk mendeteksi antibodi, yaitu IgM dan IgG, yang diproduksi oleh tubuh untuk melawan virus Corona. Antibodi ini akan dibentuk oleh tubuh bila ada paparan virus Corona</p>
+                            <p>Dengan kata lain, bila antibodi ini terdeteksi di dalam tubuh seseorang, artinya tubuh orang tersebut pernah terpapar atau dimasuki oleh virus Corona. Namun perlu Anda ketahui, pembentukan antibodi ini memerlukan waktu, bahkan bisa sampai beberapa minggu.</p>
+                            <a href="https://www.alodokter.com/kenali-apa-itu-rapid-test-untuk-virus-corona" target="_blank">
+                                <div class="informasi-tombol">
+                                    Baca selanjutnya >
+                                </div>
+                             </a>
                         </div>
                     </div>
                     <div class="berita-terkini">
@@ -174,15 +169,13 @@
                             <h1 id="color1">Rumah Sakit </h1>
                             <h1 id="color1">Rekomendasi</h1>
                             <h4 id="color2">Beberapa rumah sakit ini merupakan rekomendasi test Covid19</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Magni possimus ducimus nostrum nulla? Modi voluptatibus quo earum est architecto, doloremque, optio eum consequatur ipsum esse, 
-                                laudantium quisquam voluptatum dicta nemo.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                </p>
-                        
-                            <div class="informasi-tombol">
-                                Baca selanjutnya >
-                            </div>                      
+                            <p>Bagi Anda yang khawatir terjangkit virus Corona atau memiliki risiko terpapar COVID-19, Anda dapat memeriksakan diri ke rumah sakit (RS) rujukan yang telah disiapkan pemerintah.</p>
+                            <p>Sejumlah pemerintah daerah juga menyiapkan nomor telepon layanan khusus bagi masyarakat yang ingin mendapatkan informasi, atau memberi laporan terkait wabah virus Corona.</p>
+                            <a href="https://news.detik.com/berita/d-4942353/daftar-rumah-sakit-rujukan-covid-19-seluruh-indonesia" target="_blank">
+                                <div class="informasi-tombol">
+                                    Baca selanjutnya >
+                                </div>
+                             </a>                      
                         </div>
                     </div>  
                 </div>
@@ -420,7 +413,7 @@
             </div>
 
 
-            <div class="konten" id="blog" id="halamanblog">
+            <div class="konten" id="halamanblog">
                 <div class="konten-title">
                     <p id="color2">Blog</p>
                     <h1 id="color1">Berita Terkini</h1>
@@ -429,36 +422,36 @@
                     <div class="konten-berita">
                         <div class="container-berita">
                             <div class="gambar-berita">
-                                <img src="./src/img/rumahsakitcovid.jpg" alt="">
+                                <img src="./src/img/presiden.jpeg" alt="">
                             </div>
                             <div class="keterangan-berita">
                                 <p>COVID-19</p>
-                                <h2>Rekomendasi Rumah Sakit Covid-19</h2>
-                                <span>Baca Selengkapnya ></span>
+                                <h2>Presiden: Dukung Penuh Riset dan Inovasi Terkait Penanganan Covid-19</h2>
+                                <span> <a href="https://covid19.go.id/p/berita/presiden-dukung-penuh-riset-dan-inovasi-terkait-penanganan-covid-19" target="_blank">Baca Selengkapnya</a>  ></span>
                             </div>
                         </div>
                     </div>
                     <div class="konten-berita">
                         <div class="container-berita">
                             <div class="gambar-berita">
-                                <img src="./src/img/rumahsakitcovid.jpg" alt="">
+                                <img src="./src/img/sejahteralawancovid.jpeg" alt="">
                             </div>
                             <div class="keterangan-berita">
                                 <p>COVID-19</p>
-                                <h2>Rekomendasi Rumah Sakit Covid-19</h2>
-                                <span>Baca Selengkapnya ></span>
+                                <h2>Sejahtera Secara Psikologis Modal Utama Lawan Corona</h2>
+                                <span> <a href="https://covid19.go.id/p/berita/sejahtera-secara-psikologis-modal-utama-lawan-corona" target="_blank">Baca Selengkapnya</a>  ></span>
                             </div>
                         </div>
                     </div>
                     <div class="konten-berita">
                         <div class="container-berita">
                             <div class="gambar-berita">
-                                <img src="./src/img/rumahsakitcovid.jpg" alt="">
+                                <img src="./src/img/menhub.jpeg" alt="">
                             </div>
                             <div class="keterangan-berita">
                                 <p>COVID-19</p>
-                                <h2>Rekomendasi Rumah Sakit Covid-19</h2>
-                                <span>Baca Selengkapnya ></span>
+                                <h2>Kemenhub Telah Terbitkan Se Dirjen Tentang Petunjuk Operasional Transportasi Untuk Tindaklanjuti Se Gugus Tugas</h2>
+                                <span> <a href="https://covid19.go.id/p/berita/kemenhub-telah-terbitkan-se-dirjen-tentang-petunjuk-operasional-transportasi-untuk-tindaklanjuti-se-gugus-tugas" target="_blank">Baca Selengkapnya</a>  ></span>
                             </div>
                         </div>
                     </div>           
@@ -479,6 +472,15 @@
                 <div>
                     <h4>I Ketut Agus Juliana</h4>
                     <p>Junior Programmer</p>
+                </div>
+                <div class="skil">
+                    <h4>Skils</h4>
+                    <div class="skill-ket">
+                    <p>Programmer</p>
+                    <p>UI/UX</p>
+                    <p>Grapic Designer</p>
+                    <p>Video Editor</p>
+                    </div>
                 </div>
             </div>
         </aside>
@@ -506,16 +508,16 @@
                         <div class="logo-footer">
                             <div class="social-media">
                                 <div class="link-social" onclick="window.open('https://www.facebook.com/InfoBencanaBNPB/','_blank')">
-                                    <img src="./src/logo/facebook-01.png" alt="">
+                                    <img onmouseover="besarGambar(this)" onmouseout="kecilGambar(this)" src="./src/logo/facebook-01.png" alt="">
                                 </div>
                                 <div class="link-social" onclick="window.open('https://www.instagram.com/bnpb_indonesia/','_blank')">
-                                    <img src="./src/logo/ig-01.png" alt="">
+                                    <img onmouseover="besarGambar(this)" onmouseout="kecilGambar(this)" src="./src/logo/ig-01.png" alt="">
                                 </div>
                                 <div class="link-social" onclick="window.open('https://wa.me/6281133399000','_blank')">
-                                    <img src="./src/logo/wa-01.png" alt="">
+                                    <img onmouseover="besarGambar(this)" onmouseout="kecilGambar(this)" src="./src/logo/wa-01.png" alt="">
                                 </div>
                                 <div class="link-social" onclick="window.open('https://www.youtube.com/user/BNPBIndonesia/','_blank')">
-                                    <img src="./src/logo/yt-01.png" alt="">
+                                    <img onmouseover="besarGambar(this)" onmouseout="kecilGambar(this)" src="./src/logo/yt-01.png" alt="">
                                 </div>
                             </div> 
                         </div>
@@ -526,10 +528,13 @@
                     </div>
                     <span class="garis-footer"></span>
                     <div class="isi-footer">
-                        <p>Home</p>
-                        <p>Informasi</p>
-                        <p>About</p>
-                        <p>Team</p>
+                        <p onclick="berandascroll()"><a>Beranda</a></p>
+                        <p onclick="statistikascroll()"><a>Statistik</a></p>
+                        <p onclick="covidscroll()"><a>Covid-19</a></p>
+                        <p onclick="pencegahanscroll()"><a>Pencegahan</a></p>
+                        <p onclick="dokterscroll()"><a>Dokter</a></p>
+                        <p onclick="ciriciriscroll()"><a>Ciri-ciri</a></p>
+                        <p onclick="blogscroll()"><a>Blog</a></p>
                     </div>
                 </div>
                 <div class="midle-konten">
