@@ -20,8 +20,6 @@ function dropdown_burger(){
   }
 }
   
-
-
 function tampilVideo(){
   document.getElementById("thisModal").style.display = "block";
 }
@@ -35,4 +33,10 @@ function closeVideo(){
 function stopVideo(modal){
   var videoIframe = modal.querySelector("iframe");
   videoIframe.src = videoIframe.src  
+}
+
+function scroll(){
+  var elemen = document.getElementById("statistik");
+  console.log("sudah diklik");
+  elemen.scrollIntoView(true);
 }
