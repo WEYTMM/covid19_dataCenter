@@ -91,6 +91,11 @@ function tentangscroll(){
 }
 
 
+
+
+
+
+
 function numberFunction(){
   if(document.body.scrollTop > 250 || document.documentElement.scrollTop > 250){
     animateValue("yellow", 0, 2000, 2000);
