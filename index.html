@@ -20,19 +20,19 @@
                 </div>
                 <div class="navbar">
                     <ul>
-                        <li> <a href="#">Beranda</a></li>
-                        <li  onclick="scroll()"> <a href="#">Statistik</a></li>
+                        <li id="klikberanda"> <a href="#">Beranda</a></li>
+                        <li id="klikstatistika"> <a>Statistik</a></li>
                         <div class="dropdown">
                             <li> <a href="#">Informasi</a></li>
                             <div class="dropdown-isi">
-                                <li> <a href="#">Covid-19</a></li>
-                                <li> <a href="#">Pencegahan</a></li>
-                                <li> <a href="#">Dokter</a> </li>
-                                <li> <a href="#">Ciri-ciri</a> </li>
-                                <li> <a href="#">Blog</a> </li>
+                                <li id="klikcovid"> <a href="#">Covid-19</a></li>
+                                <li id="klikpencegahan"> <a href="#">Pencegahan</a></li>
+                                <li id="klikdokter"> <a href="#">Dokter</a> </li>
+                                <li id="klikciri-ciri"> <a href="#">Ciri-ciri</a> </li>
+                                <li id="klikblog"> <a href="#">Blog</a> </li>
                             </div>
                         </div>                
-                        <li> <a href="#">Tentang</a> </li>
+                        <li id="halamantentang"> <a href="#">Tentang</a> </li>
                     </ul>
                 </div>
                 <div class="burgermenu" onclick="dropdown_burger()">
@@ -50,13 +50,13 @@
                 
             </nav>
         </div>
-        <div class="header-text">
+        <div class="header-text" id="halamanberanda">
             <h4 >Covid-19 (CoronaVirus)</h4>
             <h1>Apa itu Covid-19?</h1>
             <p class="ket-header">Selalu ingat untuk menjaga kesehatan, selalu menggunakan masker 
                 dan tidak keluar rumah jika tidak memiliki urusan yang penting </p>
             <div class="btn-container">
-                <div class="head-button">
+                <div class="head-button" onclick="window.open('https://covid19.go.id/','_blank')">
                     <span><img src="./src/icon/weapons.svg" alt=""></span>
                     <p>Pelajari Lebih Lanjut</p>
                 </div>
@@ -79,7 +79,7 @@
     </header>
     <main>
         <div id="content">
-            <div class="statistik-covid" id="statistik">
+            <div class="statistik-covid" id="halamanstatistik">
                 <div class="title-sta" id="halaman2">
                     <p id="color2">STATISTIK</p>
                     <h1 id="color1">Statistik Covid-19</h1>
@@ -122,7 +122,7 @@
 
             <!-- Disini Tempat Article -->
 
-            <article>
+            <article id="halamancovid">
                 <div class="judulini">
                     <p id="color2">Covid-19</p>
                     <h1 id="color1">Artikel Mengenai Covid-19</h1>
@@ -190,11 +190,11 @@
             <div class="media-informasi">
                 <div class="hotline">
                     <div class="pilihan-hotline">
-                        <div class="layanan-hotline">
+                        <div class="layanan-hotline" onclick="window.open('https://www.halodoc.com/cari-dokter','_blank')">
                             <span><img src="./src/icon/stethoscope.svg" alt=""></span>
                             <p>Bertemu Dokter</p>
                         </div>
-                        <div class="layanan-hotline">
+                        <div class="layanan-hotline" onclick="window.open('https://indonesia.go.id/layanan/kesehatan','_blank')">
                             <span><img src="./src/icon/social-media.svg" alt=""></span>
                             <p>Layanan kesehatan</p>
                         </div>
@@ -210,7 +210,7 @@
                 </div>
             </div>
 
-            <div class="info-cegah">
+            <div class="info-cegah" id="halamanpencegahan">
                <div class="title-cegah">
                     <p id="color2">Pencegahan</p>
                     <h1>Cara Melindungi Diri dari Covid19</h1>
@@ -330,7 +330,7 @@
             </div>
 
 
-            <div class="info-dokter">
+            <div class="info-dokter" id="halamandokter">
                 <div class="title-dokter">
                     <p id="color2">Dokter</p>
                     <h1 id="color1">Konsultasi dengan Dokter Spesialis</h1>
@@ -374,7 +374,7 @@
 
 
 
-            <div class="ciri-ciri">
+            <div class="ciri-ciri" id="halamanciri-ciri">
                 <div class="container-ciri">
                     <div class=judulatas-ciri">
                         <p style = "margin:0" id="color2">Ciri-ciri</p>
@@ -420,7 +420,7 @@
             </div>
 
 
-            <div class="konten" id="blog">
+            <div class="konten" id="blog" id="halamanblog">
                 <div class="konten-title">
                     <p id="color2">Blog</p>
                     <h1 id="color1">Berita Terkini</h1>
@@ -485,7 +485,7 @@
 
     </main>
 
-    <footer>
+    <footer id="halamantentang">
         <!-- Disini Tempat Footer -->
 
         <div>
@@ -505,16 +505,16 @@
                     <img src="./src/logo/corona logo white-01 crop.png" alt="">
                         <div class="logo-footer">
                             <div class="social-media">
-                                <div class="link-social">
+                                <div class="link-social" onclick="window.open('https://www.facebook.com/InfoBencanaBNPB/','_blank')">
                                     <img src="./src/logo/facebook-01.png" alt="">
                                 </div>
-                                <div class="link-social">
+                                <div class="link-social" onclick="window.open('https://www.instagram.com/bnpb_indonesia/','_blank')">
                                     <img src="./src/logo/ig-01.png" alt="">
                                 </div>
-                                <div class="link-social">
+                                <div class="link-social" onclick="window.open('https://wa.me/6281133399000','_blank')">
                                     <img src="./src/logo/wa-01.png" alt="">
                                 </div>
-                                <div class="link-social">
+                                <div class="link-social" onclick="window.open('https://www.youtube.com/user/BNPBIndonesia/','_blank')">
                                     <img src="./src/logo/yt-01.png" alt="">
                                 </div>
                             </div> 

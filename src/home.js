@@ -1,3 +1,6 @@
+// Manipulate DOM HTML
+
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -35,8 +38,51 @@ function stopVideo(modal){
   videoIframe.src = videoIframe.src  
 }
 
-function scroll(){
-  var elemen = document.getElementById("statistik");
-  console.log("sudah diklik");
-  elemen.scrollIntoView(true);
+
+// Scroll into view
+
+window.onload=function(){
+  berandaklik = document.getElementById("kilikberanda");
+  berandaklik.addEventListener("click", berandascroll);
+
+  statistikklik = document.getElementById("klikstatistika");
+  statistikklik.addEventListener("click",statistikscroll);
 }
+
+// window.onload=function(){
+  
+// }
+
+// window.onload=function(){
+//   covidklik = document.getElementById("klikcovid");
+//   covidklik.addEventListener("click",covidscroll);
+// }
+
+
+function berandascroll(){
+  var br = document.getElementById("halamanberanda");
+  br.scrollIntoView({
+    behavior: "smooth",
+    inline : "center",
+    block : "nearest"
+  });
+}
+
+
+function statistikscroll(){
+  var elemen = document.getElementById("halamanstatistik");
+  elemen.scrollIntoView({
+    behavior: "smooth",
+    inline : "center",
+    block : "nearest"
+  });
+}
+
+// function covidscroll(){
+//   var cv= document.getElementById("halamancovid");
+//   cv.scrollIntoView({
+//     behavior: "smooth",
+//     inline : "center",
+//     block : "nearest"
+//   });
+// }
