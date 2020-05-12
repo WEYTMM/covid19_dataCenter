@@ -132,6 +132,8 @@ function numberFunction(){
     animateValue("yellow", 0, 2000, 2000);
     animateValue("green",0,200,2000);
     animateValue("red",0,20,2000);
+
+    numberFunction = function (){};
   }
 }
 
